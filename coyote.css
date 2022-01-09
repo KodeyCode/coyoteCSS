@@ -1,0 +1,55 @@
+/* Alignment */
+.center{ text-align: center;}
+.right{ text-align: right;}
+.left{ text-align: left;}
+/* Text */
+.sized{ font-size: var(--size);}
+.title{ font-size: 50px;}
+.subtitle{ font-size: 25px;}
+.padded{ padding: var(--padding);}
+/* Borders */
+.dotted {border-style: dotted;}
+.dashed {border-style: dashed;}
+.solid {border-style: solid;}
+.double {border-style: double;}
+.groove {border-style: groove;}
+.ridge {border-style: ridge;}
+.inset {border-style: inset;}
+.outset {border-style: outset;}
+/* Button */
+.buttonRed {border: none;padding: 15px 32px;text-decoration: none;display: inline-block;font-size: 16px;color: tomato;}
+.buttonGreen {color: mediumseagreen;}
+.buttonBlue {color: dodgerblue;}
+.buttonYellow {color: orange;}
+.buttonPurple {color: purple;}
+.buttonGrey {color: grey;}
+.buttonGray {color: grey;}
+.buttonWhite {color: white;}
+.buttonViolet {color: violet;}
+/* Colors */
+.red{ color:tomato;}
+.green{ color: mediumseagreen;}
+.blue{ color: dodgerblue;}
+.yellow{ color: orange;}
+.purple{ color: purple;}
+.grey{ color: grey;}
+.gray{ color: grey;}
+.white{ color: white;}
+.violet{ color: violet;}
+/* Background Colors */
+.bgred{ background-color:tomato;}
+.bggreen{ background-color: mediumseagreen;}
+.bgblue{ background-color: dodgerblue;}
+.bgyellow{ background-color: orange;}
+.bgpurple{ background-color: purple;}
+.bggrey{ background-color: grey;}
+.bggray{ background-color: grey;}
+.bgwhite{ background-color: white;}
+.bgviolet{ background-color: violet;}
+/* Boxs */
+.warning{   background-color: orange;width: var(--boxSize);border: 5px dashed tomato;padding: 20px;margin: 20px;}
+.welcome{ background-color: white;width: var(--boxSize);border: 5px dashed dodgerblue;padding: 20px;margin: 20px;}
+.exit{ background-color: purple;width: var(--boxSize);border: 5px dashed blue;padding: 20px;margin: 20px;}
+.error{ background-color: red;width: var(--boxSize);border: 5px dashed tomato;padding: 20px;margin: 20px;}
+.question{ background-color: yellowgreen;width: var(--boxSize);border: 5px dashed lightgreen;padding: 20px;margin: 20px;}
+.regbox{ width: var(--boxSize);border: 5px dashed black;padding: 20px;margin: 20px;}
