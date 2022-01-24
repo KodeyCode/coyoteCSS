@@ -52,4 +52,15 @@
 .exit{ background-color: purple;width: var(--boxSize);border: 5px dashed blue;padding: 20px;margin: 20px;}
 .error{ background-color: red;width: var(--boxSize);border: 5px dashed tomato;padding: 20px;margin: 20px;}
 .question{ background-color: yellowgreen;width: var(--boxSize);border: 5px dashed lightgreen;padding: 20px;margin: 20px;}
-.regbox{ width: var(--boxSize);border: 5px dashed black;padding: 20px;margin: 20px;}
+.picture{ background-color: bisque;width: var(--boxSize);border: 1px solid white;padding: 20px;margin: 20px;}
+/* Animations */
+@keyframes rainbow{0% {background-color: tomato;}12.5% {background-color: mediumseagreen;}25% {background-color: dodgerblue;}27.5% {background-color: orange;}50% {background-color: purple;}62.5% {background-color: grey;}75% {background-color: white;}87.5% {background-color: violet;}}
+@keyframes move-to-right{from{left: 0px;}to{right: 0px;}}
+@keyframes move-to-left{from{right: 0px;}to{left: 0px;}}
+@keyframes move-down{from{top:0px;}to{bottom: 0px;}}
+@keyframes move-up{}
+.rainbow{animation-name: rainbow;animation-duration: var(--time);}
+.left{animation-name: move-to-left;animation-duration: var(--time);}
+.right{animation-name: move-to-right;animation-duration: var(--time);}
+.down{animation-name: move-down;animation-duration: var(--time);}
+.up{animation-name: move-up;animation-duration: var(--time);}
