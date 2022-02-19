@@ -1,12 +1,13 @@
-/* Alignment */
+/* Alignments */
 .center{ text-align: center;}
 .right{ text-align: right;}
 .left{ text-align: left;}
-/* Text */
+/* Text Sizings*/
 .sized{ font-size: var(--size);}
 .title{ font-size: 50px;}
 .subtitle{ font-size: 25px;}
-.padded{ padding: var(--padding);}
+/* Text FX */
+.pad{ padding: var(--padding);}
 /* Borders */
 .dotted {border-style: dotted;}
 .dashed {border-style: dashed;}
@@ -16,7 +17,7 @@
 .ridge {border-style: ridge;}
 .inset {border-style: inset;}
 .outset {border-style: outset;}
-/* Button */
+/* Buttosn */
 .buttonRed {border: none;padding: 15px 32px;text-decoration: none;display: inline-block;font-size: 16px;color: tomato;}
 .buttonGreen {color: mediumseagreen;}
 .buttonBlue {color: dodgerblue;}
@@ -26,6 +27,16 @@
 .buttonGray {color: grey;}
 .buttonWhite {color: white;}
 .buttonViolet {color: violet;}
+/* Button Hovers*/
+.buttonRed:hover{color: orange;}
+.buttonGreen:hover{color: darkseagreen;}
+.buttonBlue:hover{color: lightblue;}
+.buttonYellow:hover{color: lemonchiffon;}
+.buttonPurple:hover{color: indigo;}
+.buttonGrey{color: gainsboro;}
+.buttonGray{color: gainsboro;}
+.buttonWhite{color: linen;}
+.buttonViolet{color: blueviolet;}
 /* Colors */
 .red{ color:tomato;}
 .green{ color: mediumseagreen;}
