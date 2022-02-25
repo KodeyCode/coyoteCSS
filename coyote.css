@@ -33,10 +33,10 @@
 .buttonBlue:hover{color: lightblue;}
 .buttonYellow:hover{color: lemonchiffon;}
 .buttonPurple:hover{color: indigo;}
-.buttonGrey{color: gainsboro;}
-.buttonGray{color: gainsboro;}
-.buttonWhite{color: linen;}
-.buttonViolet{color: blueviolet;}
+.buttonGrey:hover{color: gainsboro;}
+.buttonGray:hover{color: gainsboro;}
+.buttonWhite:hover{color: linen;}
+.buttonViolet:hover{color: blueviolet;}
 /* Colors */
 .red{ color:tomato;}
 .green{ color: mediumseagreen;}
