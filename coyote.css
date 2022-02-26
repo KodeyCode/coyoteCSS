@@ -17,26 +17,26 @@
 .ridge {border-style: ridge;}
 .inset {border-style: inset;}
 .outset {border-style: outset;}
-/* Buttosn */
-.buttonRed {border: none;padding: 15px 32px;text-decoration: none;display: inline-block;font-size: 16px;color: tomato;}
-.buttonGreen {color: mediumseagreen;}
-.buttonBlue {color: dodgerblue;}
-.buttonYellow {color: orange;}
-.buttonPurple {color: purple;}
-.buttonGrey {color: grey;}
-.buttonGray {color: grey;}
-.buttonWhite {color: white;}
-.buttonViolet {color: violet;}
+/* Buttons */
+.button-Red {border: none;padding: 15px 32px;text-decoration: none;display: inline-block;font-size: 16px;color: tomato;}
+.button-Green {color: mediumseagreen;}
+.button-Blue {color: dodgerblue;}
+.button-Yellow {color: orange;}
+.button-Purple {color: purple;}
+.button-Grey {color: grey;}
+.button-Gray {color: grey;}
+.button-White {color: white;}
+.button-Violet {color: violet;}
 /* Button Hovers*/
-.buttonRed:hover{color: orange;}
-.buttonGreen:hover{color: darkseagreen;}
-.buttonBlue:hover{color: lightblue;}
-.buttonYellow:hover{color: lemonchiffon;}
-.buttonPurple:hover{color: indigo;}
-.buttonGrey:hover{color: gainsboro;}
-.buttonGray:hover{color: gainsboro;}
-.buttonWhite:hover{color: linen;}
-.buttonViolet:hover{color: blueviolet;}
+.button-Red:hover{color: orange;}
+.button-Green:hover{color: darkseagreen;}
+.button-Blue:hover{color: lightblue;}
+.button-Yellow:hover{color: lemonchiffon;}
+.button-Purple:hover{color: indigo;}
+.button-Grey:hover{color: gainsboro;}
+.button-Gray:hover{color: gainsboro;}
+.button-White:hover{color: linen;}
+.button-Violet:hover{color: blueviolet;}
 /* Colors */
 .red{ color:tomato;}
 .green{ color: mediumseagreen;}
